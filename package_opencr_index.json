@@ -17,34 +17,29 @@
           "help": {
             "online": "https://github.com/ROBOTIS-GIT/OpenCR"
           },
-          "url": "https://raw.githubusercontent.com/chcbaram/OpenCM9.04/master/OpenCM9.04_1.0.0.tar.bz2",
-          "archiveFileName": "OpenCM9.04_1.0.0.tar.bz2",
-          "checksum": "SHA-256:b3b75d09d128c4d846e5280abc342d1a2bc518c01ca0f8b0ce417d645dcb8e49",
+          "url": "https://github.com/chcbaram/opencr_test/releases/download/opencr_arduino/opencr_arduino_1.0.tar.bz2",
+          "archiveFileName": "opencr_arduino_1.0.tar.bz2",
+          "checksum": "SHA-256:db00bece0d61ae7a49fd92534f10397e6d9ecd69709335e627f9700e1c53669e",
           "size": "248152",
           "help": {
-                    "online": "https://github.com/chcbaram/OpenCM9.04/"
+                    "online": "https://github.com/ROBOTIS-GIT/OpenCR"
           },
           "boards": [
             {"name": "OpenCR"}
           ],
           "toolsDependencies": [
             {
-              "packager": "arduino",
-              "name": "arm-none-eabi-gcc",
-              "version": "4.8.3-2014q1"
-            },
-            {
               "packager": "OpenCR",
-              "name": "opencr_tools",
-              "version": "1.0"
+              "name": "gcc",
+              "version": "5.4.0-2016q2"
             }
           ]
         }
       ],
       "tools":[
         {
-          "name": "opencr_tools",
-          "version": "1.0",
+          "name": "gcc",
+          "version": "5.4.0-2016q2",
           "systems": [
             {
               "host": "i686-linux-gnu",
@@ -76,6 +71,7 @@
             }
           ]
         }
+
       ]
     }
   ]
