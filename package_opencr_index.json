@@ -17,10 +17,10 @@
           "help": {
             "online": "https://github.com/ROBOTIS-GIT/OpenCR"
           },
-          "url": "https://github.com/chcbaram/opencr_test/releases/download/opencr_arduino/opencr_arduino_1.0.tar.bz2",
-          "archiveFileName": "opencr_arduino_1.0.tar.bz2",
-          "checksum": "SHA-256:db00bece0d61ae7a49fd92534f10397e6d9ecd69709335e627f9700e1c53669e",
-          "size": "248152",
+          "url": "https://github.com/chcbaram/opencr_test/releases/download/opencr_arduino/opencr_core_1.0.tar.bz2",
+          "archiveFileName": "opencr_core_1.0.tar.bz2",
+          "checksum": "SHA-256:97a4b848fb14fa70589ea06fe2f690fe40b635c6c4ffac2c129ea8076190a7ba",
+          "size": "690337",
           "help": {
                     "online": "https://github.com/ROBOTIS-GIT/OpenCR"
           },
@@ -32,7 +32,13 @@
               "packager": "OpenCR",
               "name": "gcc",
               "version": "5.4.0-2016q2"
+            },
+            {
+              "packager": "OpenCR",
+              "name": "opencr_tools",
+              "version": "1.0"
             }
+
           ]
         }
       ],
@@ -70,8 +76,41 @@
               "size": "96963810"
             }
           ]
+        },
+        {
+          "name": "opencr_tools",
+          "version": "1.0",
+          "systems": [
+            {
+              "host": "i686-linux-gnu",
+              "url": "https://raw.githubusercontent.com/chcbaram/OpenCM9.04/master/OpenCM9.04ld_1.1.zip",
+              "archiveFileName": "OpenCM9.04ld_1.1.zip",
+              "checksum": "SHA-256:59d08ed7a9117d399232f4ffff2a1c56797ca19b0aadf22c66ad0487a92ff65b",
+              "size": "16181"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "https://raw.githubusercontent.com/chcbaram/OpenCM9.04/master/OpenCM9.04ld_1.1.zip",
+              "archiveFileName": "OpenCM9.04ld_1.1.zip",
+              "checksum": "SHA-256:59d08ed7a9117d399232f4ffff2a1c56797ca19b0aadf22c66ad0487a92ff65b",
+              "size": "16181"
+            },
+            {
+              "host": "i686-mingw32",
+              "url": "https://raw.githubusercontent.com/chcbaram/OpenCM9.04/master/OpenCM9.04ld_1.1.zip",
+              "archiveFileName": "OpenCM9.04ld_1.1.zip",
+              "checksum": "SHA-256:59d08ed7a9117d399232f4ffff2a1c56797ca19b0aadf22c66ad0487a92ff65b",
+              "size": "16181"
+            },
+            {
+              "host": "i386-apple-darwin11",
+              "url": "https://github.com/chcbaram/opencr_test/releases/download/opencr_arduino/opencr_tools_1.0.tar.bz2",
+              "archiveFileName": "opencr_tools_1.0.tar.bz2",
+              "checksum": "SHA-256:3dfef83da9aadf7c9f4397c2307344f5c785ad3ea39ae19f5243adf9fdbc30c0",
+              "size": "1934513"
+            }
+          ]
         }
-
       ]
     }
   ]
