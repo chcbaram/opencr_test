@@ -69,10 +69,10 @@
             },
             {
               "host": "i386-apple-darwin11",
-              "url": "https://raw.githubusercontent.com/chcbaram/OpenCM9.04/master/OpenCM9.04ld_1.2.tar.bz2",
-              "archiveFileName": "OpenCM9.04ld_1.2.tar.bz2",
-              "checksum": "SHA-256:9906cae55ef8ec3af49fa153007d9992bcbff621a9282fc9d747fef42ce06180",
-              "size": "16338"
+              "url": "https://launchpad.net/gcc-arm-embedded/5.0/5-2016-q2-update/+download/gcc-arm-none-eabi-5_4-2016q2-20160622-mac.tar.bz2",
+              "archiveFileName": "gcc-arm-none-eabi-5_4-2016q2-20160622-mac.tar.bz2",
+              "checksum": "SHA-256:e175a0eb7ee312013d9078a5031a14bf14dff82c7e697549f04b22e6084264c8",
+              "size": "96963810"
             }
           ]
         }
