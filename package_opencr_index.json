@@ -10,7 +10,7 @@
       },
       "platforms": [
         {
-          "name": "OpenCR Board",
+          "name": "OpenCR",
           "architecture": "OpenCR",
           "version": "1.0.0",
           "category": "Arduino",
@@ -25,7 +25,7 @@
                     "online": "https://github.com/chcbaram/OpenCM9.04/"
           },
           "boards": [
-            {"name": "OpenCM9.04(Baram)"}
+            {"name": "OpenCR"}
           ],
           "toolsDependencies": [
             {
