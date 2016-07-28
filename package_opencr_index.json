@@ -1,0 +1,82 @@
+{
+  "packages": [
+    {
+      "name": "OpenCR",
+      "maintainer": "ROBOTIS",
+      "websiteURL": "https://github.com/ROBOTIS-GIT/OpenCR",
+      "email": "chcbaram@paran.com",
+      "help": {
+        "online": "http://oroca.org"
+      },
+      "platforms": [
+        {
+          "name": "OpenCR Board",
+          "architecture": "OpenCR",
+          "version": "1.0.0",
+          "category": "Arduino",
+          "help": {
+            "online": "https://github.com/ROBOTIS-GIT/OpenCR"
+          },
+          "url": "https://raw.githubusercontent.com/chcbaram/OpenCM9.04/master/OpenCM9.04_1.0.0.tar.bz2",
+          "archiveFileName": "OpenCM9.04_1.0.0.tar.bz2",
+          "checksum": "SHA-256:b3b75d09d128c4d846e5280abc342d1a2bc518c01ca0f8b0ce417d645dcb8e49",
+          "size": "248152",
+          "help": {
+                    "online": "https://github.com/chcbaram/OpenCM9.04/"
+          },
+          "boards": [
+            {"name": "OpenCM9.04(Baram)"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "4.8.3-2014q1"
+            },
+            {
+              "packager": "OpenCR",
+              "name": "opencr_tools",
+              "version": "1.0"
+            }
+          ]
+        }
+      ],
+      "tools":[
+        {
+          "name": "opencr_tools",
+          "version": "1.0",
+          "systems": [
+            {
+              "host": "i686-linux-gnu",
+              "url": "https://raw.githubusercontent.com/chcbaram/OpenCM9.04/master/OpenCM9.04ld_1.1.zip",
+              "archiveFileName": "OpenCM9.04ld_1.1.zip",
+              "checksum": "SHA-256:59d08ed7a9117d399232f4ffff2a1c56797ca19b0aadf22c66ad0487a92ff65b",
+              "size": "16181"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "https://raw.githubusercontent.com/chcbaram/OpenCM9.04/master/OpenCM9.04ld_1.1.zip",
+              "archiveFileName": "OpenCM9.04ld_1.1.zip",
+              "checksum": "SHA-256:59d08ed7a9117d399232f4ffff2a1c56797ca19b0aadf22c66ad0487a92ff65b",
+              "size": "16181"
+            },
+            {
+              "host": "i686-mingw32",
+              "url": "https://raw.githubusercontent.com/chcbaram/OpenCM9.04/master/OpenCM9.04ld_1.1.zip",
+              "archiveFileName": "OpenCM9.04ld_1.1.zip",
+              "checksum": "SHA-256:59d08ed7a9117d399232f4ffff2a1c56797ca19b0aadf22c66ad0487a92ff65b",
+              "size": "16181"
+            },
+            {
+              "host": "i386-apple-darwin11",
+              "url": "https://raw.githubusercontent.com/chcbaram/OpenCM9.04/master/OpenCM9.04ld_1.2.tar.bz2",
+              "archiveFileName": "OpenCM9.04ld_1.2.tar.bz2",
+              "checksum": "SHA-256:9906cae55ef8ec3af49fa153007d9992bcbff621a9282fc9d747fef42ce06180",
+              "size": "16338"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
