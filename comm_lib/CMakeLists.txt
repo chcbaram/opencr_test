@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 2.8.3)
 project(ros_erle_imu)
 
-## Find catkin and any catkin packages
+## Find catkin and any catkin packages dd
 find_package(catkin REQUIRED COMPONENTS rospy roscpp std_msgs genmsg)
 
 #find_package( Boost 1.40 COMPONENTS program_options REQUIRED )
